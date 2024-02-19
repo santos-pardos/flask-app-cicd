@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: sreehariskumar/flaskapp:latest
+          tags: santospardos/sanvalero:flaskapp
           
       - name: deploying
         uses: appleboy/ssh-action@v0.1.8
